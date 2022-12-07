@@ -1,0 +1,306 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(73, 66, 66);
+}
+header #navbar ul{
+    
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around; 
+    height: 90px;
+    align-items: center;
+
+}
+#contact a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header #navbar ul li{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around; 
+    height: 90px;
+    align-items: center;
+}
+header #navbar ul li a{
+    /* margin-top: 10px; */
+    text-decoration: none;
+    font-size: 26px;
+    color: white;
+    font-family: 'Zen Dots', cursive;
+    transition: .3s;
+    padding: 10px;
+
+}
+header #navbar ul li a:hover{
+    border-radius: 30px;
+    box-shadow: inset 0px 0px 10px white;
+}
+header #navbar ul li i{
+    color: white;
+    font-size: 22px;
+    padding:10px ;
+}
+
+#image{
+    display: flex;
+    justify-content: center;
+}
+#image img{
+    width: 50%;
+    height: 800px;
+}
+#home h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 40px;
+}
+#home h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+
+}
+#btn{
+    display: flex;
+    justify-content: center;
+}
+#btn button{
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 24px;
+    border: 2px solid black;
+    color: white;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(11, 7, 58);
+    border-radius: 10px;
+    transition: .5s;
+    font-family: 'Quicksand', sans-serif;
+    transition: .5s;
+}
+#btn button:hover{
+    cursor: pointer;
+    box-shadow:  0px 0px 30px rgb(62, 62, 124);
+    border: 1px solid white;
+   
+    border-radius: 30px;
+    
+}
+
+#about{
+    background-color: #5e5e5e;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0px 0px 30px rgb(175, 175, 175);
+    box-shadow: inset 0px 0px 30px rgb(12, 12, 12);
+    margin: 7px;
+    padding: 16px;
+    color: white;
+}
+
+#L{
+    width: 50%;
+}
+#L h2{
+    padding: 20px;
+    font-size: 30px;
+}
+#L p{
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+    padding-right: 30px;
+}
+#R{
+    width: 50%;
+}
+#R h2{
+    padding: 20px;
+    font-size: 28px;
+}
+#R p{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+#Education{
+    background-color: rgb(231, 255, 194);
+    background-color: white;
+    margin-top: 30px;
+    
+}
+#set{
+    font-family: 'Ubuntu', sans-serif;
+ 
+    margin-top: 20px;
+    justify-content: space-around;
+}
+#Education h1{
+    font-size: 60px;
+    display: inline;
+    
+    margin: 20px;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+   
+    color: rgb(47, 47, 47);
+}
+
+#first,#second,#third{
+    display: flex;
+    margin: 20px;
+}
+.one{
+    background-color: #5e5e5e;
+    border-top-left-radius: 20px;
+    padding: 30px;
+    color: white;
+    border: 0.5px solid black;
+}
+.two{
+    border: 0.5px solid black;
+    box-shadow: inset 0px 0px 2px rgb(11, 7, 58);
+    padding: 20px;
+}
+#skills h1{
+    font-size: 60px;
+    display: inline;
+    
+    margin: 20px;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+   
+    color: rgb(47, 47, 47);
+}
+#languages{
+    display: flex;
+}
+.skill{
+    width: 30%;
+    margin: 20px;
+    border: 2px solid grey;
+    padding: 20px;
+    background-color: rgb(16, 13, 44);
+    color: rgb(224, 224, 224);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: .3s;
+}
+
+.skill h3{
+    margin-top: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 26px;
+}
+.skill p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+}
+.skill:hover{
+    cursor: pointer;
+    box-shadow: inset 0px 0px 20px rgb(183, 183, 183);
+}
+#mobile{
+    margin: 30px;
+    background-color: #5e5e5e;
+    box-shadow: inset 0px 0px 30px black;
+    padding: 30px;
+    border-radius: 30px;
+}
+#mobile h1{
+    font-size: 60px;
+    display: inline;
+    margin: 20px;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(16, 13, 44);
+    
+}
+
+#mobile p{
+    font-family: 'Ubuntu', sans-serif;
+    color: #f0f0f0;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    color: rgb(60, 60, 60);
+}
+#form{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+form label{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+form input{
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-image: linear-gradient(rgb(247, 247, 247),rgb(193, 193, 193));
+    border: none;
+}
+
+::placeholder{
+    color: #5e5e5e;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+input[type="radio"]{
+    color: white;
+}
+textarea{
+    
+    border-radius: 20px;
+    margin-top: 13px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, .25),
+    10px 10px 70px rgba(0, 0, 0, .25),
+    inset 5px 5px 20px rgba(255, 255, 255, .2),
+    inset -5px -5px 15px rgba(0, 0, 0, .75);
+}
+input[type="submit"]{
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .3s;
+}
+input[type="submit"]:hover{
+   
+    box-shadow: 0px 0px 30px white;
+    cursor: pointer;
+}
+form b{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
